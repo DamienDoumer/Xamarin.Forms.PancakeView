@@ -51,6 +51,7 @@
     </PropertyGroup>
     <ItemGroup>
         <Compile Include="Platforms\Shared\**\*.cs" />
+        <PackageReference Include="Microsoft.NETCore.UniversalWindowsPlatform" Version="6.2.10" />
         <!--NuGet that bring in good stuff -->
         <PackageReference Include="Xamarin.Forms" Version="4.8.0.1269" />
         <!--     <PackageReference Condition=" !$(TargetFramework.StartsWith('tizen')) " Include="Xamarin.Forms" Version="3.6.0.220655" />
